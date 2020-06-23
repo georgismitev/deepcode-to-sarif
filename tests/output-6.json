@@ -1,0 +1,86 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "DeepCode",
+          "rules": [
+            {
+              "id": "python%2Fdc%2FSqli",
+              "name": "Sqli",
+              "shortDescription": {
+                "text": "Unsanitized input flows from the database and is used in an SQL query in execute. This may result in an SQL Injection vulnerability."
+              },
+              "fullDescription": {
+                "text": "Unsanitized input flows from the database and is used in an SQL query in execute. This may result in an SQL Injection vulnerability."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "tags": [
+                  "python"
+                ],
+                "precision": "very-high"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "python%2Fdc%2FSqli",
+          "level": "error",
+          "message": {
+            "text": "Unsanitized input flows from the database and is used in an SQL query in execute. This may result in an SQL Injection vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "postgresql-critical.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 234,
+                  "endLine": 234,
+                  "startColumn": 5,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "region": {
+                            "startLine": 234,
+                            "endLine": 234,
+                            "startColumn": 5,
+                            "endColumn": 18
+                          },
+                          "artifactLocation": {
+                            "uri": "postgresql-critical.py",
+                            "uriBaseId": "%SRCROOT%",
+                            "index": 0
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

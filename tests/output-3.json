@@ -1,0 +1,103 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "DeepCode",
+          "rules": [
+            {
+              "id": "javascript%2Fdc%2FWrongOperatorPriorityNegationInstanceOf",
+              "name": "WrongOperatorPriorityNegationInstanceOf",
+              "shortDescription": {
+                "text": "Negation applied before instanceof. Check operator priorities - negation has higher priority than instanceof."
+              },
+              "fullDescription": {
+                "text": "Negation applied before instanceof. Check operator priorities - negation has higher priority than instanceof."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "tags": [
+                  "javascript"
+                ],
+                "precision": "very-high"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "javascript%2Fdc%2FWrongOperatorPriorityNegationInstanceOf",
+          "level": "error",
+          "message": {
+            "text": "Negation applied before instanceof. Check operator priorities - negation has higher priority than instanceof."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "critical.js",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 164,
+                  "endLine": 164,
+                  "startColumn": 8,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "region": {
+                            "startLine": 164,
+                            "endLine": 164,
+                            "startColumn": 8,
+                            "endColumn": 15
+                          },
+                          "artifactLocation": {
+                            "uri": "critical.js",
+                            "uriBaseId": "%SRCROOT%",
+                            "index": 0
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "critical.js",
+                            "uriBaseId": "%SRCROOT%",
+                            "index": 1
+                          },
+                          "region": {
+                            "startLine": 164,
+                            "endLine": 164,
+                            "startColumn": 8,
+                            "endColumn": 32
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

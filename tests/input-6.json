@@ -1,0 +1,31 @@
+{
+  "id": "gh/deepcodeg/DEEPCODE_PRIVATE_BUNDLE/f223b2206333488e7d0b56ac6739de65d93d3462199be5fa6566d63df30f2aca",
+  "results": {
+    "files": {
+      "/postgresql-critical.py": {
+        "7": [
+          {
+            "cols": [
+              5,
+              18
+            ],
+            "markers": [],
+            "rows": [
+              234,
+              234
+            ]
+          }
+        ]
+      }
+    },
+    "suggestions": {
+      "7": {
+        "id": "python%2Fdc%2FSqli",
+        "message": "Unsanitized input flows from the database and is used in an SQL query in execute. This may result in an SQL Injection vulnerability.",
+        "rule": "Sqli",
+        "severity": 3
+      }
+    }
+  },
+  "url": "https://www.deepcode.ai/app/gh/deepcodeg/DEEPCODE_PRIVATE_BUNDLE/f223b2206333488e7d0b56ac6739de65d93d3462199be5fa6566d63df30f2aca/_/%2F/code/"
+}

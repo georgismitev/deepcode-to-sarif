@@ -1,0 +1,308 @@
+{
+  "id": "gh/deepcodeg/DEEPCODE_PRIVATE_BUNDLE/f223b2206333488e7d0b56ac6739de65d93d3462199be5fa6566d63df30f2aca",
+  "results": {
+    "files": {
+      "/warning.js": {
+        "5": [
+          {
+            "cols": [
+              7,
+              32
+            ],
+            "markers": [
+              {
+                "msg": [
+                  19,
+                  20
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      7,
+                      32
+                    ],
+                    "rows": [
+                      51,
+                      51
+                    ]
+                  }
+                ]
+              },
+              {
+                "msg": [
+                  36,
+                  44
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      7,
+                      20
+                    ],
+                    "rows": [
+                      51,
+                      51
+                    ]
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              51,
+              51
+            ]
+          },
+          {
+            "cols": [
+              7,
+              30
+            ],
+            "markers": [
+              {
+                "msg": [
+                  19,
+                  20
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      7,
+                      30
+                    ],
+                    "rows": [
+                      58,
+                      58
+                    ]
+                  }
+                ]
+              },
+              {
+                "msg": [
+                  36,
+                  44
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      7,
+                      18
+                    ],
+                    "rows": [
+                      58,
+                      58
+                    ]
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              58,
+              58
+            ]
+          },
+          {
+            "cols": [
+              7,
+              39
+            ],
+            "markers": [
+              {
+                "msg": [
+                  19,
+                  20
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      7,
+                      39
+                    ],
+                    "rows": [
+                      173,
+                      173
+                    ]
+                  }
+                ]
+              },
+              {
+                "msg": [
+                  36,
+                  44
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      7,
+                      27
+                    ],
+                    "rows": [
+                      173,
+                      173
+                    ]
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              173,
+              173
+            ]
+          },
+          {
+            "cols": [
+              7,
+              39
+            ],
+            "markers": [
+              {
+                "msg": [
+                  19,
+                  20
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      7,
+                      39
+                    ],
+                    "rows": [
+                      189,
+                      189
+                    ]
+                  }
+                ]
+              },
+              {
+                "msg": [
+                  36,
+                  44
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      7,
+                      27
+                    ],
+                    "rows": [
+                      189,
+                      189
+                    ]
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              189,
+              189
+            ]
+          },
+          {
+            "cols": [
+              23,
+              46
+            ],
+            "markers": [
+              {
+                "msg": [
+                  19,
+                  20
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      23,
+                      46
+                    ],
+                    "rows": [
+                      269,
+                      269
+                    ]
+                  }
+                ]
+              },
+              {
+                "msg": [
+                  36,
+                  44
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      23,
+                      34
+                    ],
+                    "rows": [
+                      269,
+                      269
+                    ]
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              269,
+              269
+            ]
+          },
+          {
+            "cols": [
+              7,
+              31
+            ],
+            "markers": [
+              {
+                "msg": [
+                  19,
+                  20
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      7,
+                      31
+                    ],
+                    "rows": [
+                      397,
+                      397
+                    ]
+                  }
+                ]
+              },
+              {
+                "msg": [
+                  36,
+                  44
+                ],
+                "pos": [
+                  {
+                    "cols": [
+                      7,
+                      19
+                    ],
+                    "rows": [
+                      397,
+                      397
+                    ]
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              397,
+              397
+            ]
+          }
+        ]
+      }
+    },
+    "suggestions": {
+      "5": {
+        "id": "javascript%2Fdc%2FUseStrictEquality",
+        "message": "Use === instead of == to compare to the value.",
+        "rule": "UseStrictEquality",
+        "severity": 1
+      }
+    }
+  },
+  "url": "https://www.deepcode.ai/app/gh/deepcodeg/DEEPCODE_PRIVATE_BUNDLE/f223b2206333488e7d0b56ac6739de65d93d3462199be5fa6566d63df30f2aca/_/%2F/code/"
+}
